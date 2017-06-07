@@ -25,8 +25,8 @@ class Product(models.Model):
     price = models.DecimalField(max_digits=10, decimal_places=2, verbose_name="Цена")
     stock = models.PositiveIntegerField(verbose_name="На складе")
     available = models.BooleanField(default=True, verbose_name="Доступен")
-    created = models.DateTimeField(auto_now_add=True)
-    updated = models.DateTimeField(auto_now=True)
+    created = models.DateTimeField(auto_now_add=True, verbose_name="Создан")
+    updated = models.DateTimeField(auto_now=True, verbose_name="Обновлено")
 
     class Meta:
         ordering = ['name']
