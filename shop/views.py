@@ -1,6 +1,9 @@
-from django.shortcuts import render
+from django.http import Http404
+from django.shortcuts import render, get_object_or_404
 
 # Create your views here.
+from shop.models import Category, SubCategory
+
 
 def about(request):
     return render(request, 'about.html', {"title": "About"})
@@ -36,8 +39,50 @@ def temp_product():
     #conn.close()
     #return data
 
+
+def products(request, category, subcategory=None, id=None):
+    print("View products")
+    print("category: " + str(category))
+    print("subcategory: " + str(subcategory))
+    print("id: " + str(id))
+    categories = Category.objects.all()
+
+    if subcategory is None:
+        # отрендерить страницу для категории
+        c = get_object_or_404(Category, slug__exact=category)  # Category.objects.get(name__exact=category)
+        pass
+    if id is None:
+        # отрендерить страницу для категории
+        c = get_object_or_404(Category, slug__exact=category)  # Category.objects.get(name__exact=category)
+        s = get_object_or_404(SubCategory, slug__exact=subcategory)
+        pass
+    if id:
+        print(type(id))
+        # отрендерить страницу для товара
+        c = get_object_or_404(Category, slug__exact=category)  # Category.objects.get(name__exact=category)
+        s = get_object_or_404(SubCategory, slug__exact=subcategory)
+        if s.category != c:
+            raise Http404
+        p = s.product_set.get(pk=int(id))
+    s = categories.subcategory_set.get(pk=1)
+    print(s)
+    p = s.product_set.all()
+    print(p)
+    return render(request, 'index.html', {"title": "Home page",
+                                          'product': temp_product(),
+                                          'categories': categories,
+                                          'products': p})
+
 def index(request):
-    return render(request, 'index.html', {"title": "Home page", 'product':temp_product()})
+    c = Category.objects.get(pk=1)
+    s = c.subcategory_set.get(pk=1)
+    print(s)
+    p = s.product_set.all()
+    print(p)
+    return render(request, 'index.html', {"title": "Home page",
+                                          'product':temp_product(),
+                                          'categories': Category.objects.all(),
+                                          'products': p})
 
 def kitchen(request):
     return render(request, 'kitchen.html', {"title": "Kitchen"})

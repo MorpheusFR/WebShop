@@ -14,11 +14,12 @@ from .views import \
     shipping, \
     single, \
     terms, \
-    wishlist
+    wishlist, products
 
 urlpatterns = [
     #url(r'^$', index),
     url(r'^$', index, name='index'),
+    url(r'^(?P<category>\w+)/(?P<subcategory>\w*)/?(?P<id>\d*)$', products, name='products'),
     url(r'^contact/$', contact, name='contact'),
     url(r'^care/$', care, name='care'),
     url(r'^codes/$', codes, name='codes'),

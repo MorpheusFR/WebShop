@@ -1,10 +1,12 @@
+from django.contrib.auth.models import User
 from django.db import models
 
-# Create your models here.
+
 # Модель категории
 class Category(models.Model):
     name = models.CharField(max_length=200, db_index=True)
     slug = models.SlugField(max_length=200, db_index=True, unique=True)
+    image = models.ImageField(upload_to='category', blank=True, null=True)
 
     class Meta:
         ordering = ['name']
@@ -15,12 +17,26 @@ class Category(models.Model):
         return self.name
 
 
+class SubCategory(models.Model):
+    name = models.CharField(max_length=200, db_index=True)
+    slug = models.SlugField(max_length=200, db_index=True, unique=True)
+    image = models.ImageField(upload_to='subcategory', blank=True, null=True)
+    category = models.ForeignKey(Category)
+
+    class Meta:
+        ordering = ['name']
+        verbose_name = 'Подкатегория'
+        verbose_name_plural = 'Подкатегории'
+
+    def __str__(self):
+        return self.name
+
+
 # Модель продукта
 class Product(models.Model):
-    category = models.ForeignKey(Category, related_name='products', verbose_name="Категория")
+    subcategory = models.ForeignKey(SubCategory, verbose_name="Категория",  blank=True, null=True)
     name = models.CharField(max_length=200, db_index=True, verbose_name="Название")
-    slug = models.SlugField(max_length=200, db_index=True)
-    #image = models.ImageField(upload_to='products/%Y/%m/%d/', blank=True, verbose_name="Изображение товара")
+    image = models.ImageField(upload_to='products', blank=True, null=True, verbose_name="Изображение товара")
     description = models.TextField(blank=True, verbose_name="Описание")
     price = models.DecimalField(max_digits=10, decimal_places=2, verbose_name="Цена")
     stock = models.PositiveIntegerField(verbose_name="На складе")
@@ -31,9 +47,19 @@ class Product(models.Model):
     class Meta:
         ordering = ['name']
         index_together = [
-            ['id', 'slug']
+            ['id', 'name']
         ]
 
     def __str__(self):
         return self.name
 
+
+class FeedBack(models.Model):
+    content = models.TextField()
+    product = models.ForeignKey(Product)
+    pass
+
+
+class Customer(models.Model):
+    user = models.OneToOneField(User)
+    pass
