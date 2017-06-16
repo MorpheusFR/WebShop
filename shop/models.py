@@ -49,6 +49,8 @@ class Product(models.Model):
         index_together = [
             ['id', 'name']
         ]
+        verbose_name = 'Продукт'
+        verbose_name_plural = 'Продукты'
 
     def __str__(self):
         return self.name
