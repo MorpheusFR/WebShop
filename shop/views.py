@@ -21,16 +21,16 @@ def faqs(request):
     return render(request, 'faqs.html', {"title": "About"})
 
 def hold(request):
-    return render(request, 'hold.html', {"title": "Household"})
+    return render(request, 'hold.html', {"title": "House hold"})
 
-def temp_product():
-    product = {
-        'moong': ['Moong(1 kg)', 'of.png', 'There are many variations of passages of Lorem Ipsum.', '<del>$2.00</del>$1.50'],
-        'moong1': ['Moong(1 kg)', 'of.png', 'There are many variations of passages of Lorem Ipsum.', '<del>$2.00</del>$1.50'],
-
-
-    }
-    return product
+# def temp_product():
+#     product = {
+#         'moong': ['Moong(1 kg)', 'of.png', 'There are many variations of passages of Lorem Ipsum.', '<del>$2.00</del>$1.50'],
+#         'moong1': ['Moong(1 kg)', 'of.png', 'There are many variations of passages of Lorem Ipsum.', '<del>$2.00</del>$1.50'],
+#
+#
+#     }
+#     return product
 
 #conn = sqlite3.connect("posts.sqlite3")
     #cur = conn.cursor()
@@ -69,7 +69,7 @@ def products(request, category, subcategory=None, id=None):
     p = s.product_set.all()
     print(p)
     return render(request, 'index.html', {"title": "Home page",
-                                          'product': temp_product(),
+                                          #'product': temp_product(),
                                           'categories': categories,
                                           'products': p})
 
@@ -80,7 +80,7 @@ def index(request):
     p = s.product_set.all()
     print(p)
     return render(request, 'index.html', {"title": "Home page",
-                                          'product':temp_product(),
+                                          #'product':temp_product(),
                                           'categories': Category.objects.all(),
                                           'products': p})
 
