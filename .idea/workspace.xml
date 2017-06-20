@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6ff98554-5845-4147-8cbf-a53543272d3b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/views.py" afterPath="$PROJECT_DIR$/shop/views.py" />
     </list>
@@ -51,6 +52,60 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="db.sqlite3" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="main" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="shop_subcategory" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="db.sqlite3" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="main" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="shop_product" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="db.sqlite3" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="main" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="shop_category" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -61,8 +116,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="52" column="10" lean-forward="false" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+            <state relative-caret-position="403">
+              <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -73,8 +128,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="29" column="49" lean-forward="false" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+            <state relative-caret-position="170">
+              <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -97,48 +152,8 @@
       <file leaf-file-name="main_base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/main_base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-              <folding>
-                <element signature="n#script#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#script#4;n#head#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#script#6;n#head#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#6252#6257#0#HTML" expanded="true" />
-                <element signature="e#6608#6613#0#HTML" expanded="true" />
-                <element signature="e#7325#7330#0#HTML" expanded="true" />
-                <element signature="e#15581#15587#0#HTML" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#a#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kitchen.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/kitchen.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4255">
-              <caret line="739" column="0" lean-forward="false" selection-start-line="739" selection-start-column="0" selection-end-line="739" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hold.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/hold.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-153">
-              <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="codes.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/codes.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="4622">
+              <caret line="368" column="0" lean-forward="false" selection-start-line="368" selection-start-column="0" selection-end-line="368" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -147,11 +162,178 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shop/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-68">
-              <caret line="23" column="57" lean-forward="false" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+            <state relative-caret-position="374">
+              <caret line="49" column="4" lean-forward="true" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Webshop/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="40" column="22" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.shop_subcategory" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/25b596d5/5c02df98-5ac3-43f9-a3b3-9550a8eef411/main.shop_subcategory">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.shop_category" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/25b596d5/5c02df98-5ac3-43f9-a3b3-9550a8eef411/main.shop_category">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.shop_product" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/25b596d5/5c02df98-5ac3-43f9-a3b3-9550a8eef411/main.shop_product">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DATABASE/5c02df98-5ac3-43f9-a3b3-9550a8eef411" pinned="false" current-in-tab="false">
+        <entry file="uml://DATABASE/5c02df98-5ac3-43f9-a3b3-9550a8eef411">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>5c02df98-5ac3-43f9-a3b3-9550a8eef411</OriginalElement>
+              <nodes>
+                <node x="0.0" y="1528.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.django_migrations</node>
+                <node x="70.0" y="658.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_feedback</node>
+                <node x="0.0" y="1277.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.django_admin_log</node>
+                <node x="398.57499999999993" y="799.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.django_content_type</node>
+                <node x="1024.375" y="799.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.sqlite_master</node>
+                <node x="620.375" y="1332.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_user_user_permissions</node>
+                <node x="818.375" y="1332.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_group_permissions</node>
+                <node x="60.0" y="0.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_category</node>
+                <node x="472.0" y="1528.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.sqlite_sequence</node>
+                <node x="208.0" y="1528.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.django_session</node>
+                <node x="50.0" y="168.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_subcategory</node>
+                <node x="756.61875" y="1022.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_permission</node>
+                <node x="263.0" y="1343.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_customer</node>
+                <node x="254.36874999999998" y="945.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_user</node>
+                <node x="577.36875" y="1044.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_group</node>
+                <node x="0.0" y="358.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_product</node>
+                <node x="457.375" y="1332.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_user_groups</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_user_user_permissions" target="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_permission">
+                  <point x="44.5" y="-48.0" />
+                  <point x="753.875" y="1257.0" />
+                  <point x="797.36875" y="1257.0" />
+                  <point x="-40.75" y="59.0" />
+                </edge>
+                <edge source="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_user_user_permissions" target="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_user">
+                  <point x="-44.5" y="-48.0" />
+                  <point x="664.875" y="1247.0" />
+                  <point x="519.49375" y="1247.0" />
+                  <point x="113.625" y="136.0" />
+                </edge>
+                <edge source="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_product" target="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_subcategory">
+                  <point x="0.0" y="-125.0" />
+                  <point x="0.0" y="70.0" />
+                </edge>
+                <edge source="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_customer" target="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_user">
+                  <point x="0.0" y="-37.0" />
+                  <point x="324.5" y="1257.0" />
+                  <point x="367.99375" y="1257.0" />
+                  <point x="-37.875" y="136.0" />
+                </edge>
+                <edge source="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_user_groups" target="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_user">
+                  <point x="-35.75" y="-48.0" />
+                  <point x="493.125" y="1257.0" />
+                  <point x="443.74375" y="1257.0" />
+                  <point x="37.875" y="136.0" />
+                </edge>
+                <edge source="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_user_groups" target="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_group">
+                  <point x="35.75" y="-48.0" />
+                  <point x="564.625" y="1257.0" />
+                  <point x="608.11875" y="1257.0" />
+                  <point x="-30.75" y="37.0" />
+                </edge>
+                <edge source="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_group_permissions" target="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_group">
+                  <point x="-40.25" y="-48.0" />
+                  <point x="858.625" y="1237.0" />
+                  <point x="669.61875" y="1237.0" />
+                  <point x="30.75" y="37.0" />
+                </edge>
+                <edge source="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_subcategory" target="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_category">
+                  <point x="0.0" y="-70.0" />
+                  <point x="0.0" y="59.0" />
+                </edge>
+                <edge source="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.django_admin_log" target="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.django_content_type">
+                  <point x="-60.75" y="-103.0" />
+                  <point x="60.75" y="920.0" />
+                  <point x="434.32499999999993" y="920.0" />
+                  <point x="-35.75" y="48.0" />
+                </edge>
+                <edge source="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_feedback" target="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_product">
+                  <point x="0.0" y="-48.0" />
+                  <point x="0.0" y="125.0" />
+                </edge>
+                <edge source="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.django_admin_log" target="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_user">
+                  <point x="60.75" y="-103.0" />
+                  <point x="182.25" y="1257.0" />
+                  <point x="292.24375" y="1257.0" />
+                  <point x="-113.625" y="136.0" />
+                </edge>
+                <edge source="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_group_permissions" target="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_permission">
+                  <point x="40.25" y="-48.0" />
+                  <point x="939.125" y="1257.0" />
+                  <point x="878.86875" y="1257.0" />
+                  <point x="40.75" y="59.0" />
+                </edge>
+                <edge source="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_permission" target="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.django_content_type">
+                  <point x="0.0" y="-59.0" />
+                  <point x="838.11875" y="920.0" />
+                  <point x="505.82499999999993" y="920.0" />
+                  <point x="35.75" y="48.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.1147659063625452" x="-48.0" y="477.0" />
+              <SelectedNodes>
+                <node>5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_product</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Columns</Category>
+                <Category>Key columns</Category>
+              </Categories>
             </state>
           </provider>
         </entry>
@@ -183,12 +365,12 @@
         <option value="$PROJECT_DIR$/Webshop/urls.py" />
         <option value="$PROJECT_DIR$/templates/register.html" />
         <option value="$PROJECT_DIR$/shop/admin.py" />
-        <option value="$PROJECT_DIR$/Webshop/settings.py" />
-        <option value="$PROJECT_DIR$/shop/urls.py" />
         <option value="$PROJECT_DIR$/templates/kitchen.html" />
-        <option value="$PROJECT_DIR$/templates/main_base.html" />
         <option value="$PROJECT_DIR$/shop/models.py" />
+        <option value="$PROJECT_DIR$/templates/main_base.html" />
+        <option value="$PROJECT_DIR$/shop/urls.py" />
         <option value="$PROJECT_DIR$/shop/views.py" />
+        <option value="$PROJECT_DIR$/Webshop/settings.py" />
       </list>
     </option>
   </component>
@@ -199,10 +381,25 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-7" />
     <option name="width" value="1612" />
-    <option name="height" value="876" />
+    <option name="height" value="867" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -220,8 +417,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -296,11 +491,16 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.selected.package.stylelint" value="" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -626,7 +826,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497635868925</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add lady fingers">
+      <created>1497636518242</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1497636518242</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -639,29 +846,52 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1612" height="876" extended-state="0" />
+    <frame x="-7" y="0" width="1612" height="867" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2648196" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.49485862" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33647376" sideWeight="0.50771207" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32974428" sideWeight="0.47429305" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.49485862" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33647376" sideWeight="0.4922879" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.47429305" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32833788" sideWeight="0.49485862" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33514985" sideWeight="0.4922879" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32833788" sideWeight="0.49485862" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2648196" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925257" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32166892" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.49485862" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925257" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32166892" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.49485862" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33647376" sideWeight="0.50771207" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.47429305" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.49485862" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33514985" sideWeight="0.4922879" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.49485862" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2648196" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32925257" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32166892" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925257" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -707,7 +937,8 @@
     <MESSAGE value="исправление в структуре базы" />
     <MESSAGE value="add House Hold - Category" />
     <MESSAGE value="Поправил Продукты в админке" />
-    <option name="LAST_COMMIT_MESSAGE" value="Поправил Продукты в админке" />
+    <MESSAGE value="add lady fingers" />
+    <option name="LAST_COMMIT_MESSAGE" value="add lady fingers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -716,89 +947,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/kitchen.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/main_base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6715">
-          <caret line="395" column="0" lean-forward="false" selection-start-line="395" selection-start-column="0" selection-end-line="395" selection-end-column="0" />
-          <folding>
-            <element signature="n#script#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#4;n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#6;n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#6252#6257#0#HTML" expanded="true" />
-            <element signature="e#6608#6613#0#HTML" expanded="true" />
-            <element signature="e#7325#7330#0#HTML" expanded="true" />
-            <element signature="e#15581#15587#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="58" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/25b596d5/275c998c-b112-4223-bdc5-0fe82c197ff3/main.shop_category">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/25b596d5/275c998c-b112-4223-bdc5-0fe82c197ff3/main.auth_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/25b596d5/275c998c-b112-4223-bdc5-0fe82c197ff3/main.shop_product">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="dbDummy://dbtable:/25b596d5/275c998c-b112-4223-bdc5-0fe82c197ff3/main.shop_product" />
     <entry file="file://$PROJECT_DIR$/shop/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -820,7 +969,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -828,7 +976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -836,7 +983,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
           <caret line="75" column="42" lean-forward="true" selection-start-line="75" selection-start-column="42" selection-end-line="75" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -894,7 +1040,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="34" column="43" lean-forward="false" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -905,7 +1050,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
           <caret line="389" column="92" lean-forward="false" selection-start-line="389" selection-start-column="92" selection-end-line="389" selection-end-column="92" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -913,25 +1057,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="75" column="42" lean-forward="false" selection-start-line="75" selection-start-column="42" selection-end-line="75" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.py" />
     <entry file="file://$PROJECT_DIR$/urls.py" />
     <entry file="file://$PROJECT_DIR$/wsgi.py" />
-    <entry file="dbDummy://dbtable:/25b596d5/275c998c-b112-4223-bdc5-0fe82c197ff3/main.django_migrations">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="dbDummy://dbtable:/25b596d5/275c998c-b112-4223-bdc5-0fe82c197ff3/main.django_migrations" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/275c998c-b112-4223-bdc5-0fe82c197ff3/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -946,30 +1078,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/25b596d5/275c998c-b112-4223-bdc5-0fe82c197ff3/main.sqlite_master">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/25b596d5/275c998c-b112-4223-bdc5-0fe82c197ff3/main.sqlite_sequence">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="dbDummy://dbtable:/25b596d5/275c998c-b112-4223-bdc5-0fe82c197ff3/main.sqlite_master" />
+    <entry file="dbDummy://dbtable:/25b596d5/275c998c-b112-4223-bdc5-0fe82c197ff3/main.sqlite_sequence" />
     <entry file="file://$PROJECT_DIR$/Webshop/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -977,23 +1087,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/25b596d5/275c998c-b112-4223-bdc5-0fe82c197ff3/main.shop_category">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="dbDummy://dbtable:/25b596d5/275c998c-b112-4223-bdc5-0fe82c197ff3/main.shop_category" />
     <entry file="file://$PROJECT_DIR$/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="40" column="29" lean-forward="false" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1001,27 +1099,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="33" column="41" lean-forward="true" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/25b596d5/275c998c-b112-4223-bdc5-0fe82c197ff3/main.auth_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="dbDummy://dbtable:/25b596d5/275c998c-b112-4223-bdc5-0fe82c197ff3/main.auth_user" />
     <entry file="file://$PROJECT_DIR$/Webshop/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1029,11 +1114,156 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/25b596d5/275c998c-b112-4223-bdc5-0fe82c197ff3/main.shop_product">
+    <entry file="dbDummy://dbtable:/25b596d5/275c998c-b112-4223-bdc5-0fe82c197ff3/main.shop_product" />
+    <entry file="file://$PROJECT_DIR$/templates/codes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/hold.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/kitchen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4255">
+          <caret line="739" column="0" lean-forward="false" selection-start-line="739" selection-start-column="0" selection-end-line="739" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6cedb4a2-78b9-4cd3-9831-3e9fbf29fdda/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5c02df98-5ac3-43f9-a3b3-9550a8eef411/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/5c02df98-5ac3-43f9-a3b3-9550a8eef411">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>5c02df98-5ac3-43f9-a3b3-9550a8eef411</OriginalElement>
+          <nodes>
+            <node x="0.0" y="1528.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.django_migrations</node>
+            <node x="70.0" y="658.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_feedback</node>
+            <node x="0.0" y="1277.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.django_admin_log</node>
+            <node x="398.57499999999993" y="799.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.django_content_type</node>
+            <node x="1024.375" y="799.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.sqlite_master</node>
+            <node x="620.375" y="1332.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_user_user_permissions</node>
+            <node x="818.375" y="1332.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_group_permissions</node>
+            <node x="60.0" y="0.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_category</node>
+            <node x="472.0" y="1528.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.sqlite_sequence</node>
+            <node x="208.0" y="1528.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.django_session</node>
+            <node x="50.0" y="168.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_subcategory</node>
+            <node x="756.61875" y="1022.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_permission</node>
+            <node x="263.0" y="1343.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_customer</node>
+            <node x="254.36874999999998" y="945.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_user</node>
+            <node x="577.36875" y="1044.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_group</node>
+            <node x="0.0" y="358.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_product</node>
+            <node x="457.375" y="1332.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_user_groups</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_user_user_permissions" target="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_permission">
+              <point x="44.5" y="-48.0" />
+              <point x="753.875" y="1257.0" />
+              <point x="797.36875" y="1257.0" />
+              <point x="-40.75" y="59.0" />
+            </edge>
+            <edge source="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_user_user_permissions" target="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_user">
+              <point x="-44.5" y="-48.0" />
+              <point x="664.875" y="1247.0" />
+              <point x="519.49375" y="1247.0" />
+              <point x="113.625" y="136.0" />
+            </edge>
+            <edge source="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_product" target="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_subcategory">
+              <point x="0.0" y="-125.0" />
+              <point x="0.0" y="70.0" />
+            </edge>
+            <edge source="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_customer" target="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_user">
+              <point x="0.0" y="-37.0" />
+              <point x="324.5" y="1257.0" />
+              <point x="367.99375" y="1257.0" />
+              <point x="-37.875" y="136.0" />
+            </edge>
+            <edge source="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_user_groups" target="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_user">
+              <point x="-35.75" y="-48.0" />
+              <point x="493.125" y="1257.0" />
+              <point x="443.74375" y="1257.0" />
+              <point x="37.875" y="136.0" />
+            </edge>
+            <edge source="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_user_groups" target="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_group">
+              <point x="35.75" y="-48.0" />
+              <point x="564.625" y="1257.0" />
+              <point x="608.11875" y="1257.0" />
+              <point x="-30.75" y="37.0" />
+            </edge>
+            <edge source="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_group_permissions" target="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_group">
+              <point x="-40.25" y="-48.0" />
+              <point x="858.625" y="1237.0" />
+              <point x="669.61875" y="1237.0" />
+              <point x="30.75" y="37.0" />
+            </edge>
+            <edge source="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_subcategory" target="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_category">
+              <point x="0.0" y="-70.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+            <edge source="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.django_admin_log" target="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.django_content_type">
+              <point x="-60.75" y="-103.0" />
+              <point x="60.75" y="920.0" />
+              <point x="434.32499999999993" y="920.0" />
+              <point x="-35.75" y="48.0" />
+            </edge>
+            <edge source="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_feedback" target="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_product">
+              <point x="0.0" y="-48.0" />
+              <point x="0.0" y="125.0" />
+            </edge>
+            <edge source="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.django_admin_log" target="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_user">
+              <point x="60.75" y="-103.0" />
+              <point x="182.25" y="1257.0" />
+              <point x="292.24375" y="1257.0" />
+              <point x="-113.625" y="136.0" />
+            </edge>
+            <edge source="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_group_permissions" target="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_permission">
+              <point x="40.25" y="-48.0" />
+              <point x="939.125" y="1257.0" />
+              <point x="878.86875" y="1257.0" />
+              <point x="40.75" y="59.0" />
+            </edge>
+            <edge source="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_permission" target="5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.django_content_type">
+              <point x="0.0" y="-59.0" />
+              <point x="838.11875" y="920.0" />
+              <point x="505.82499999999993" y="920.0" />
+              <point x="35.75" y="48.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.1147659063625452" x="-48.0" y="477.0" />
+          <SelectedNodes>
+            <node>5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_product</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/25b596d5/5c02df98-5ac3-43f9-a3b3-9550a8eef411/main.shop_subcategory">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -1046,11 +1276,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Webshop/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="125" column="1" lean-forward="true" selection-start-line="125" selection-start-column="1" selection-end-line="125" selection-end-column="1" />
+    <entry file="dbDummy://dbtable:/25b596d5/5c02df98-5ac3-43f9-a3b3-9550a8eef411/main.shop_category">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/25b596d5/5c02df98-5ac3-43f9-a3b3-9550a8eef411/main.shop_product">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1064,72 +1332,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/codes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/hold.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="29" column="49" lean-forward="false" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="52" column="10" lean-forward="false" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/main_base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-          <folding>
-            <element signature="n#script#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#4;n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#6;n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#6252#6257#0#HTML" expanded="true" />
-            <element signature="e#6608#6613#0#HTML" expanded="true" />
-            <element signature="e#7325#7330#0#HTML" expanded="true" />
-            <element signature="e#15581#15587#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="4622">
+          <caret line="368" column="0" lean-forward="false" selection-start-line="368" selection-start-column="0" selection-end-line="368" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/kitchen.html">
+    <entry file="file://$PROJECT_DIR$/Webshop/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4255">
-          <caret line="739" column="0" lean-forward="false" selection-start-line="739" selection-start-column="0" selection-end-line="739" selection-end-column="0" />
+        <state relative-caret-position="289">
+          <caret line="40" column="22" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shop/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="23" column="57" lean-forward="false" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+        <state relative-caret-position="374">
+          <caret line="49" column="4" lean-forward="true" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
