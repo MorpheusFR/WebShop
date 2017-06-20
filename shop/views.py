@@ -34,11 +34,11 @@ def products(request, category, subcategory=None, id=None):
         # отрендерить страницу для категории
         c = get_object_or_404(Category, slug__exact=category)  # Category.objects.get(name__exact=category)
         pass
-    if id is None:
-        # отрендерить страницу для категории
-        c = get_object_or_404(Category, slug__exact=category)  # Category.objects.get(name__exact=category)
-        s = get_object_or_404(SubCategory, slug__exact=subcategory)
-        pass
+    #if id is None:
+    #    # отрендерить страницу для категории
+    #    c = get_object_or_404(Category, slug__exact=category)  # Category.objects.get(name__exact=category)
+    #    s = get_object_or_404(SubCategory, slug__exact=subcategory)
+    #    pass
     if id:
         print(type(id))
         # отрендерить страницу для товара
