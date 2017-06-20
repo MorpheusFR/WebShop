@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6ff98554-5845-4147-8cbf-a53543272d3b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/views.py" afterPath="$PROJECT_DIR$/shop/views.py" />
     </list>
@@ -52,60 +51,6 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="db.sqlite3" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="main" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="shop_subcategory" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="db.sqlite3" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="main" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="shop_product" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="db.sqlite3" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="main" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="shop_category" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -116,8 +61,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+            <state relative-caret-position="17">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -129,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/shop/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+              <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -149,21 +94,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_base.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main_base.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/main_base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4622">
-              <caret line="368" column="0" lean-forward="false" selection-start-line="368" selection-start-column="0" selection-end-line="368" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="138">
+              <caret line="115" column="81" lean-forward="false" selection-start-line="115" selection-start-column="81" selection-end-line="115" selection-end-column="81" />
+              <folding>
+                <element signature="n#script#4;n#head#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#script#6;n#head#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="49" column="4" lean-forward="true" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+            <state relative-caret-position="170">
+              <caret line="62" column="12" lean-forward="true" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -174,8 +122,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Webshop/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="40" column="22" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+            <state relative-caret-position="408">
+              <caret line="134" column="44" lean-forward="true" selection-start-line="134" selection-start-column="44" selection-end-line="134" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -234,21 +182,21 @@
               <OriginalElement>5c02df98-5ac3-43f9-a3b3-9550a8eef411</OriginalElement>
               <nodes>
                 <node x="0.0" y="1528.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.django_migrations</node>
-                <node x="70.0" y="658.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_feedback</node>
+                <node x="22.133490496537547" y="303.2968911153676">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_feedback</node>
                 <node x="0.0" y="1277.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.django_admin_log</node>
                 <node x="398.57499999999993" y="799.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.django_content_type</node>
                 <node x="1024.375" y="799.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.sqlite_master</node>
                 <node x="620.375" y="1332.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_user_user_permissions</node>
                 <node x="818.375" y="1332.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_group_permissions</node>
-                <node x="60.0" y="0.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_category</node>
+                <node x="-481.25976130838353" y="-88.36894062177691">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_category</node>
                 <node x="472.0" y="1528.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.sqlite_sequence</node>
                 <node x="208.0" y="1528.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.django_session</node>
-                <node x="50.0" y="168.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_subcategory</node>
+                <node x="-29.777515839104183" y="-73.7872403123618">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_subcategory</node>
                 <node x="756.61875" y="1022.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_permission</node>
                 <node x="263.0" y="1343.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_customer</node>
                 <node x="254.36874999999998" y="945.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_user</node>
                 <node x="577.36875" y="1044.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_group</node>
-                <node x="0.0" y="358.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_product</node>
+                <node x="-483.5744806247236" y="86.75644614704586">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_product</node>
                 <node x="457.375" y="1332.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_user_groups</node>
               </nodes>
               <notes />
@@ -326,9 +274,9 @@
                   <point x="35.75" y="48.0" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="1.1147659063625452" x="-48.0" y="477.0" />
+              <settings layout="Hierarchic Group" zoom="0.8147659063625452" x="-259.43686459407695" y="214.56313540592305" />
               <SelectedNodes>
-                <node>5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_product</node>
+                <node>5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_subcategory</node>
               </SelectedNodes>
               <Categories>
                 <Category>Columns</Category>
@@ -346,6 +294,7 @@
       <find>.html</find>
       <find>images/</find>
       <find>temp_</find>
+      <find>set</find>
     </findStrings>
     <replaceStrings>
       <replace>{% static 'kitchen' %}</replace>
@@ -367,10 +316,10 @@
         <option value="$PROJECT_DIR$/shop/admin.py" />
         <option value="$PROJECT_DIR$/templates/kitchen.html" />
         <option value="$PROJECT_DIR$/shop/models.py" />
-        <option value="$PROJECT_DIR$/templates/main_base.html" />
         <option value="$PROJECT_DIR$/shop/urls.py" />
-        <option value="$PROJECT_DIR$/shop/views.py" />
         <option value="$PROJECT_DIR$/Webshop/settings.py" />
+        <option value="$PROJECT_DIR$/shop/views.py" />
+        <option value="$PROJECT_DIR$/templates/main_base.html" />
       </list>
     </option>
   </component>
@@ -833,7 +782,21 @@
       <option name="project" value="LOCAL" />
       <updated>1497636518242</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add settings easy_thumbnails">
+      <created>1497977035129</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1497977035129</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add settings cripsy for bootstrap3">
+      <created>1497978964260</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1497978964261</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView">
@@ -847,15 +810,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1612" height="867" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.49485862" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33647376" sideWeight="0.50771207" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.47429305" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32833788" sideWeight="0.49485862" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33514985" sideWeight="0.4922879" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32833788" sideWeight="0.49485862" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2648196" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33514985" sideWeight="0.4922879" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32833788" sideWeight="0.49485862" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2648196" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925257" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32166892" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -938,7 +900,9 @@
     <MESSAGE value="add House Hold - Category" />
     <MESSAGE value="Поправил Продукты в админке" />
     <MESSAGE value="add lady fingers" />
-    <option name="LAST_COMMIT_MESSAGE" value="add lady fingers" />
+    <MESSAGE value="add settings easy_thumbnails" />
+    <MESSAGE value="add settings cripsy for bootstrap3" />
+    <option name="LAST_COMMIT_MESSAGE" value="add settings cripsy for bootstrap3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1153,6 +1117,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/shop/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/25b596d5/5c02df98-5ac3-43f9-a3b3-9550a8eef411/main.shop_category">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/25b596d5/5c02df98-5ac3-43f9-a3b3-9550a8eef411/main.shop_subcategory">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/25b596d5/5c02df98-5ac3-43f9-a3b3-9550a8eef411/main.shop_product">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="uml://DATABASE/5c02df98-5ac3-43f9-a3b3-9550a8eef411">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1160,21 +1173,21 @@
           <OriginalElement>5c02df98-5ac3-43f9-a3b3-9550a8eef411</OriginalElement>
           <nodes>
             <node x="0.0" y="1528.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.django_migrations</node>
-            <node x="70.0" y="658.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_feedback</node>
+            <node x="22.133490496537547" y="303.2968911153676">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_feedback</node>
             <node x="0.0" y="1277.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.django_admin_log</node>
             <node x="398.57499999999993" y="799.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.django_content_type</node>
             <node x="1024.375" y="799.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.sqlite_master</node>
             <node x="620.375" y="1332.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_user_user_permissions</node>
             <node x="818.375" y="1332.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_group_permissions</node>
-            <node x="60.0" y="0.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_category</node>
+            <node x="-481.25976130838353" y="-88.36894062177691">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_category</node>
             <node x="472.0" y="1528.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.sqlite_sequence</node>
             <node x="208.0" y="1528.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.django_session</node>
-            <node x="50.0" y="168.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_subcategory</node>
+            <node x="-29.777515839104183" y="-73.7872403123618">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_subcategory</node>
             <node x="756.61875" y="1022.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_permission</node>
             <node x="263.0" y="1343.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_customer</node>
             <node x="254.36874999999998" y="945.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_user</node>
             <node x="577.36875" y="1044.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_group</node>
-            <node x="0.0" y="358.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_product</node>
+            <node x="-483.5744806247236" y="86.75644614704586">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_product</node>
             <node x="457.375" y="1332.0">5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.auth_user_groups</node>
           </nodes>
           <notes />
@@ -1252,9 +1265,9 @@
               <point x="35.75" y="48.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.1147659063625452" x="-48.0" y="477.0" />
+          <settings layout="Hierarchic Group" zoom="0.8147659063625452" x="-259.43686459407695" y="214.56313540592305" />
           <SelectedNodes>
-            <node>5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_product</node>
+            <node>5c02df98-5ac3-43f9-a3b3-9550a8eef411.TABLE:main.shop_subcategory</node>
           </SelectedNodes>
           <Categories>
             <Category>Columns</Category>
@@ -1263,59 +1276,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/25b596d5/5c02df98-5ac3-43f9-a3b3-9550a8eef411/main.shop_subcategory">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/25b596d5/5c02df98-5ac3-43f9-a3b3-9550a8eef411/main.shop_category">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/25b596d5/5c02df98-5ac3-43f9-a3b3-9550a8eef411/main.shop_product">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shop/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
@@ -1332,28 +1296,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/main_base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4622">
-          <caret line="368" column="0" lean-forward="false" selection-start-line="368" selection-start-column="0" selection-end-line="368" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Webshop/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="40" column="22" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        <state relative-caret-position="408">
+          <caret line="134" column="44" lean-forward="true" selection-start-line="134" selection-start-column="44" selection-end-line="134" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shop/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="49" column="4" lean-forward="true" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+        <state relative-caret-position="170">
+          <caret line="62" column="12" lean-forward="true" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/main_base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="115" column="81" lean-forward="false" selection-start-line="115" selection-start-column="81" selection-end-line="115" selection-end-column="81" />
+          <folding>
+            <element signature="n#script#4;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#6;n#head#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
