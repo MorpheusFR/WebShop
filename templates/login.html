@@ -1,31 +1,41 @@
 {% extends 'main_base.html' %}
 
 {% load staticfiles %}
+{% load crispy_forms_tags %}
 
 {# ================================MAIN_CONTENT_UP============================================= #}
 {% block main_contant_up %}
 
+{% comment %}
+<form action="{% url 'login' %}" method="post">
+    {% csrf_token %}
+    {{ form|crispy }}
+    <input hidden name="next" value="{{ next }}" />
+    <input type="submit" class="btn btn-default"/>
+    <a href=""logout.html" %" class="btn btn-danger">Logout</a>
+</form>
+
+{% endcomment %}
 
 
  <!--banner-->
 <div class="banner-top">
 	<div class="container">
-		<h3 >Login</h3>
-		<h4><a href="index.html">Home</a><label>/</label>Login</h4>
+		<h3>Login</h3>
+		<h4><a href="{% url 'index' %}">Home</a><label>/</label>Login</h4>
 		<div class="clearfix"> </div>
 	</div>
 </div>
 <!--login-->
+    <div class="login">
 
-	<div class="login">
-	
 		<div class="main-agileits">
 				<div class="form-w3agile">
 					<h3>Login</h3>
 					<form action="#" method="post">
 						<div class="key">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
-							<input  type="text" value="Email" name="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+							<input type="text" value="Login" name="Login" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Login';}" required="">
 							<div class="clearfix"></div>
 						</div>
 						<div class="key">
@@ -33,17 +43,22 @@
 							<input  type="password" value="Password" name="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">
 							<div class="clearfix"></div>
 						</div>
-						<input type="submit" value="Login">
+                        {% if user.is_authenticated %}
+                            <input type="submit" class="forg-right" value="Logout">
+                        {% else %}
+                            <input type="submit" class="forq-left" value="Login">
+                        {% endif %}
+
+
 					</form>
 				</div>
 				<div class="forg">
 					<a href="#" class="forg-left">Forgot Password</a>
-					<a href="register.html" class="forg-right">Register</a>
+                    <a href="{% url 'register' %}" class="forg-right">Register</a>
 				<div class="clearfix"></div>
 				</div>
 			</div>
 		</div>
-
 
 {% endblock %}
 
@@ -55,6 +70,4 @@
 
 
 
-</body>
-</html>
 {% endblock %}
