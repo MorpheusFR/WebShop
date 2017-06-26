@@ -18,15 +18,17 @@ from .views import \
     wishlist, products
 
 urlpatterns = [
-    #url(r'^$', index),
+    # url(r'^$', index),
     url(r'^$', index, name='index'),
-    #url(r'^(?P<category>\w+)/(?P<subcategory>\w*)/?(?P<id>\d*)$', products, name='products'),
+    url(r'^login/$', login, name='login'),
+    url(r'^logout/$', login, name='logout'),
+    url(r'^register/$', register, name='register'),
     url(r'^contact/$', contact, name='contact'),
     url(r'^care/$', care, name='care'),
     url(r'^codes/$', codes, name='codes'),
     url(r'^faqs/$', faqs, name='faqs'),
     url(r'^hold/$', hold, name='hold'),
-    url(r'^kitchen/$', kitchen, name='kitchen'),
+
     url(r'^offer/$', offer, name='offer'),
 
     url(r'^shipping/$', shipping, name='shipping'),
@@ -34,8 +36,7 @@ urlpatterns = [
     url(r'^terms/$', terms, name='terms'),
     url(r'^wishlist/$', wishlist, name='wishlist'),
     url(r'^about/$', about, name='about'),
+    url(r'^(?P<slug_category>\w+)/(?P<slug_subcategory>\w*)/?(?P<id>\d*)$', products, name='products'),
 
-    url(r'^login/$', login, name='login'),
-    url(r'^logout/$', login, name='logout'),
-    url(r'^register/$', register, name='register'),
+    url(r'^kitchen/$', kitchen, name='kitchen'),
 ]

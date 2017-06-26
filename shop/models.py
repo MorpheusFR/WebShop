@@ -64,7 +64,7 @@ class FeedBack(models.Model):
 
 class Customer(models.Model):
     user = models.OneToOneField(User)
-    user_name = models.CharField(max_length=200, db_index=True, verbose_name="Name")
+    user_name = models.CharField(max_length=200, default='', db_index=True, verbose_name="Name")
 
     #def __unicode__(self):
     #    return self.user
@@ -74,10 +74,13 @@ class Customer(models.Model):
     #first_name = models.
     #last_name = models.
     avatar = models.ImageField(upload_to='customer_avatar', blank=True, null=True, verbose_name="Avatar")
-    created = models.DateTimeField(auto_now_add=True, verbose_name="Создан")
-    updated = models.DateTimeField(auto_now=True, verbose_name="Обновлено")
-    pass
+    created = models.DateTimeField(auto_now_add=True, blank=True, null=True, verbose_name="Создан")
+    updated = models.DateTimeField(auto_now=True, blank=True, null=True, verbose_name="Обновлено")
+
+    def __str__(self):
+        return self.user_name
 
     class Meta:
         verbose_name = 'Профиль'
         verbose_name_plural = 'Профили'
+
