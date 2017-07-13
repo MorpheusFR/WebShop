@@ -2,135 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ff98554-5845-4147-8cbf-a53543272d3b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/manage.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/shop/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/shop/apps.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/shop/migrations/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/shop/tests.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/jstarbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/ab.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/ab1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/arr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/ba.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/ba1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/ba2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/cac.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/can.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/co.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/co1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/co2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/co3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/download.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/ki.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/ki1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/ki2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/ki3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/ki4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/ki5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/ki6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/ki7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/ki8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/me.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/me1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/me2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of19.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of25.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of26.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of27.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of28.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of29.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of33.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of34.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of35.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of36.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of37.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of38.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of39.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of41.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of42.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of43.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of44.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of45.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of46.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of47.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of49.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of51.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of52.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of53.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of54.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of55.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of56.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of57.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of58.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of59.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/of9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/sh.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/si-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/si.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/wi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/wi1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/wi2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/easing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/easyResponsiveTabs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/jquery-1.11.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/jquery.mycart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/jquery.vide.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/jquery.zoomtoo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/jstarbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/modernizr.custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/move-top.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/video/video.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/video/video.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/video/video.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/video/video.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Webshop.iml" afterPath="$PROJECT_DIR$/.idea/Webshop.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/models.py" afterPath="$PROJECT_DIR$/shop/models.py" />
     </list>
     <ignored path=".idea/misc.xml" />
     <ignored path=".idea/modules.xml" />
@@ -342,7 +214,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunDashboard">
@@ -669,7 +541,21 @@
       <option name="project" value="LOCAL" />
       <updated>1497635868925</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Add models orders and Customers">
+      <created>1499953556008</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1499953556008</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add models orders and Customers 0.1">
+      <created>1499953600799</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1499953600799</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView">
@@ -689,10 +575,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33647376" sideWeight="0.50771207" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33647376" sideWeight="0.4922879" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.47429305" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.47429305" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.49485862" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.49485862" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.49485862" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -750,7 +636,9 @@
     <MESSAGE value="исправление в структуре базы" />
     <MESSAGE value="add House Hold - Category" />
     <MESSAGE value="Поправил Продукты в админке" />
-    <option name="LAST_COMMIT_MESSAGE" value="Поправил Продукты в админке" />
+    <MESSAGE value="Add models orders and Customers" />
+    <MESSAGE value="Add models orders and Customers 0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add models orders and Customers 0.1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
