@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ff98554-5845-4147-8cbf-a53543272d3b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/models.py" afterPath="$PROJECT_DIR$/shop/models.py" />
     </list>
     <ignored path=".idea/misc.xml" />
     <ignored path=".idea/modules.xml" />
@@ -606,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499955880746</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Add models orders and Customers 0.3">
+      <created>1499956467993</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1499956467993</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView">
@@ -690,7 +697,8 @@
     <MESSAGE value="Add models orders and Customers" />
     <MESSAGE value="Add models orders and Customers 0.1" />
     <MESSAGE value="Add models orders and Customers 0.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add models orders and Customers 0.2" />
+    <MESSAGE value="Add models orders and Customers 0.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add models orders and Customers 0.3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
