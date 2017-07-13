@@ -8,16 +8,17 @@ from shop.models import Category, SubCategory, Customer, Product
 
 def search(request):
     errors = []
-    if 'q' in request.GET:
-        q = request.GET['q']
+    if 'q' in request.POST:
+        q = request.POST['q']
         if not q:
             errors.append('введите название для поиска.')
-        elif len(q) > 20:
+        elif len(q) > 20: # Ограничение на количество символов
             errors.append('Введите не более 20 символов.')
     else:
         products = Product.objects.filter(text__icontains=q)
         return render_to_response('search_results.html', {'product': products, 'query': q})
     return render_to_response('search_form.html', {'errors': errors})
+
 
 def about(request):
     return render(request, 'about.html', {"title": "About"})
