@@ -64,9 +64,6 @@ class FeedBack(models.Model):
 
 class Customer(models.Model):
     user = models.OneToOneField(User)
-    pass
-
-    user = models.OneToOneField(User)
     user_name = models.CharField(max_length=200, default='', db_index=True, verbose_name="Name")
 
     #def __unicode__(self):
