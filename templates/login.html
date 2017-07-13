@@ -32,7 +32,9 @@
 		<div class="main-agileits">
 				<div class="form-w3agile">
 					<h3>Login</h3>
-					<form action="#" method="post">
+					<form action="{% url 'login' %}" method="post">
+
+                        {% csrf_token %}
 						<div class="key">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
 							<input type="text" value="Login" name="Login" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Login';}" required="">

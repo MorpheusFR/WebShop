@@ -23,6 +23,7 @@ urlpatterns = [
     url(r'^login/$', login, name='login'),
     url(r'^logout/$', login, name='logout'),
     url(r'^register/$', register, name='register'),
+
     url(r'^contact/$', contact, name='contact'),
     url(r'^care/$', care, name='care'),
     url(r'^codes/$', codes, name='codes'),
