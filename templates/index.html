@@ -13,6 +13,7 @@
 			the readable </h3>	
 			<div class="search-form">
 				<form action="{% url 'search' %}" method="post">
+                    {% csrf_token %}
 					<input type="text" placeholder="Search..." name="Search...">
 					<input type="submit" value="{{ q }}" >
 				</form>
